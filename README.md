@@ -4,9 +4,7 @@
 
 Our motive behind this app was to helps / provides a way for the honor of helping those in need by providing an assisting product to view their digital health id.Therefore, we created this Malafk app.
 
-<img width="77" alt="Screen Shot 1444-06-19 at 8 01 02 PM" src="https://user-images.githubusercontent.com/98335445/212150136-95b756f7-5668-4630-acd0-18861cf9467c.png">
-
-
+![LogpMalafk](https://user-images.githubusercontent.com/85634409/212470417-7bc793ea-cb48-46c1-b434-49b14569b008.png)
 
 
 ## Challenge Statement:
