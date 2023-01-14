@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4C0B07B7-80B6-409C-86BA-23EE0F792BBC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C602F07E-533B-49EA-992A-55B943D108CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Malafk/Views/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "ContentView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "C602F07E-533B-49EA-992A-55B943D108CE - 1a8050bd14867437"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of Malafk.ContentView.phone2 : Swift.String"
+                  moduleName = "Malafk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/njoudsaud/Desktop/Malafk/Malafk/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "C602F07E-533B-49EA-992A-55B943D108CE - cabaae9686128d8e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Malafk.ContentView.init() -&gt; Malafk.ContentView"
+                  moduleName = "Malafk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/njoudsaud/Desktop/Malafk/Malafk/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "828">
+               </Location>
+               <Location
+                  uuid = "C602F07E-533B-49EA-992A-55B943D108CE - 2a8ad60b8439ed37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Malafk.ContentView.init(managedObjContext: SwiftUI.Environment&lt;__C.NSManagedObjectContext&gt;, card: SwiftUI.FetchRequest&lt;Malafk.Malafk&gt;, dismiss: SwiftUI.Environment&lt;SwiftUI.DismissAction&gt;) -&gt; Malafk.ContentView"
+                  moduleName = "Malafk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/njoudsaud/Desktop/Malafk/Malafk/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "660">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B6914C5-4B8B-44B2-ACAA-578742364527"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Malafk/Views/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

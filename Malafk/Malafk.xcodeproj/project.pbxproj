@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A905C208296D8D6700E7BACE /* MalafkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905C207296D8D6700E7BACE /* MalafkApp.swift */; };
+		A905C20A296D8D6700E7BACE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905C209296D8D6700E7BACE /* ContentView.swift */; };
+		A905C20C296D8D6900E7BACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A905C20B296D8D6900E7BACE /* Assets.xcassets */; };
+		A905C20F296D8D6900E7BACE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A905C20E296D8D6900E7BACE /* Preview Assets.xcassets */; };
+		A905C211296D8D6900E7BACE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905C210296D8D6900E7BACE /* Persistence.swift */; };
+		A905C214296D8D6900E7BACE /* MalafkModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A905C212296D8D6900E7BACE /* MalafkModel.xcdatamodeld */; };
+		A905C21C296D8E3C00E7BACE /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905C21B296D8E3C00E7BACE /* Main.swift */; };
+		A905C21E296D91CA00E7BACE /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905C21D296D91C900E7BACE /* DataController.swift */; };
+		A905C222296ECFA300E7BACE /* AdData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905C221296ECFA300E7BACE /* AdData.swift */; };
+		A905C226297304D100E7BACE /* onboarding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905C225297304D100E7BACE /* onboarding1.swift */; };
+		A905C228297304DD00E7BACE /* onboarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905C227297304DD00E7BACE /* onboarding2.swift */; };
+		A905C22A297304E900E7BACE /* onboarding3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905C229297304E900E7BACE /* onboarding3.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A905C204296D8D6700E7BACE /* Malafk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Malafk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A905C207296D8D6700E7BACE /* MalafkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MalafkApp.swift; sourceTree = "<group>"; };
+		A905C209296D8D6700E7BACE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A905C20B296D8D6900E7BACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A905C20E296D8D6900E7BACE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A905C210296D8D6900E7BACE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A905C213296D8D6900E7BACE /* Malafk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Malafk.xcdatamodel; sourceTree = "<group>"; };
+		A905C21B296D8E3C00E7BACE /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		A905C21D296D91C900E7BACE /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		A905C221296ECFA300E7BACE /* AdData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdData.swift; sourceTree = "<group>"; };
+		A905C225297304D100E7BACE /* onboarding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboarding1.swift; sourceTree = "<group>"; };
+		A905C227297304DD00E7BACE /* onboarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboarding2.swift; sourceTree = "<group>"; };
+		A905C229297304E900E7BACE /* onboarding3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboarding3.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A905C201296D8D6700E7BACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A905C1FB296D8D6700E7BACE = {
+			isa = PBXGroup;
+			children = (
+				A905C206296D8D6700E7BACE /* Malafk */,
+				A905C205296D8D6700E7BACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A905C205296D8D6700E7BACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A905C204296D8D6700E7BACE /* Malafk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A905C206296D8D6700E7BACE /* Malafk */ = {
+			isa = PBXGroup;
+			children = (
+				A905C21A296D8DA900E7BACE /* Views */,
+				A905C207296D8D6700E7BACE /* MalafkApp.swift */,
+				A905C20B296D8D6900E7BACE /* Assets.xcassets */,
+				A905C210296D8D6900E7BACE /* Persistence.swift */,
+				A905C212296D8D6900E7BACE /* MalafkModel.xcdatamodeld */,
+				A905C20D296D8D6900E7BACE /* Preview Content */,
+				A905C21D296D91C900E7BACE /* DataController.swift */,
+			);
+			path = Malafk;
+			sourceTree = "<group>";
+		};
+		A905C20D296D8D6900E7BACE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A905C20E296D8D6900E7BACE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A905C21A296D8DA900E7BACE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A905C209296D8D6700E7BACE /* ContentView.swift */,
+				A905C21B296D8E3C00E7BACE /* Main.swift */,
+				A905C221296ECFA300E7BACE /* AdData.swift */,
+				A905C225297304D100E7BACE /* onboarding1.swift */,
+				A905C227297304DD00E7BACE /* onboarding2.swift */,
+				A905C229297304E900E7BACE /* onboarding3.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A905C203296D8D6700E7BACE /* Malafk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A905C217296D8D6900E7BACE /* Build configuration list for PBXNativeTarget "Malafk" */;
+			buildPhases = (
+				A905C200296D8D6700E7BACE /* Sources */,
+				A905C201296D8D6700E7BACE /* Frameworks */,
+				A905C202296D8D6700E7BACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Malafk;
+			productName = Malafk;
+			productReference = A905C204296D8D6700E7BACE /* Malafk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A905C1FC296D8D6700E7BACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A905C203296D8D6700E7BACE = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A905C1FF296D8D6700E7BACE /* Build configuration list for PBXProject "Malafk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A905C1FB296D8D6700E7BACE;
+			productRefGroup = A905C205296D8D6700E7BACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A905C203296D8D6700E7BACE /* Malafk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A905C202296D8D6700E7BACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A905C20F296D8D6900E7BACE /* Preview Assets.xcassets in Resources */,
+				A905C20C296D8D6900E7BACE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A905C200296D8D6700E7BACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A905C226297304D100E7BACE /* onboarding1.swift in Sources */,
+				A905C21C296D8E3C00E7BACE /* Main.swift in Sources */,
+				A905C21E296D91CA00E7BACE /* DataController.swift in Sources */,
+				A905C211296D8D6900E7BACE /* Persistence.swift in Sources */,
+				A905C20A296D8D6700E7BACE /* ContentView.swift in Sources */,
+				A905C208296D8D6700E7BACE /* MalafkApp.swift in Sources */,
+				A905C22A297304E900E7BACE /* onboarding3.swift in Sources */,
+				A905C222296ECFA300E7BACE /* AdData.swift in Sources */,
+				A905C228297304DD00E7BACE /* onboarding2.swift in Sources */,
+				A905C214296D8D6900E7BACE /* MalafkModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A905C215296D8D6900E7BACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A905C216296D8D6900E7BACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A905C218296D8D6900E7BACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Malafk/Preview Content\"";
+				DEVELOPMENT_TEAM = C48XQY4D63;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Team47.Malafk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A905C219296D8D6900E7BACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Malafk/Preview Content\"";
+				DEVELOPMENT_TEAM = C48XQY4D63;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Team47.Malafk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A905C1FF296D8D6700E7BACE /* Build configuration list for PBXProject "Malafk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A905C215296D8D6900E7BACE /* Debug */,
+				A905C216296D8D6900E7BACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A905C217296D8D6900E7BACE /* Build configuration list for PBXNativeTarget "Malafk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A905C218296D8D6900E7BACE /* Debug */,
+				A905C219296D8D6900E7BACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A905C212296D8D6900E7BACE /* MalafkModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A905C213296D8D6900E7BACE /* Malafk.xcdatamodel */,
+			);
+			currentVersion = A905C213296D8D6900E7BACE /* Malafk.xcdatamodel */;
+			path = MalafkModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A905C1FC296D8D6700E7BACE /* Project object */;
+}
