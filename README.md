@@ -25,16 +25,11 @@ A emergency card for elderly who need constant assistance to have digital health
 * Accessibility (Voice Over)
 
 
-## Demo of our App
-
-
-
-
 
 ## Challenge Summary
 An App that provides a way to anyone in need of constant assistance especially the elderly who don't always know how to function fully and what they need and who need occasional help in public places.
 
-
+<img width="955" alt="Screen Shot 1444-06-21 at 7 26 44 PM" src="https://user-images.githubusercontent.com/85634409/212483241-1ef00e1f-283b-4f15-acff-440ef750711b.png">
 
 ## Developers
 
